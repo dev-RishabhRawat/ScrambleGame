@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+    <title>Scramble Words Game</title>
+</head>
+
+<body>
+    <div id="select">
+
+    </div>
+    <div id="movie">
+        <header>
+            <div class="scramble">
+                <h1>Guess The Movie Name </h1>
+            </div>
+        </header>
+        <section>
+            <div class="gameArea">
+
+                <p>To start click the below button and some shuffled Words will comme you have to guess the word correctly and write on the input box given below. <strong>Hint:</strong>Number of white spaces is equal to number of word movie</p>
+                <h3 class="msg"></h3>
+                <input type="text" class="hidden" name="inp">
+                <button class="btn">Click Here to Start</button>
+                <button id="stop" class="hidden" onclick="document.location.reload(true)">Click Here to Stop</button>
+            </div>
+        </section>
+    </div>
+    <script src="scramble.js"></script>
+</body>
+
+</html>

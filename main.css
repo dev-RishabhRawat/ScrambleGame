@@ -1,0 +1,137 @@
+    body {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    
+    header {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: 20vh;
+        background-color: #173357;
+        background-image: url(images/bgh.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+    }
+    
+    h1 {
+        font-size: x-large;
+        text-align: center;
+        font-family: 'Piedra', cursive;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 12px;
+        color: darkred;
+        text-align: center;
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    }
+    
+    .image {
+        height: 100px;
+        width: 90px;
+    }
+    
+    section {
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(images/bgs.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+    }
+    
+    .gameArea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 380px;
+        width: 70%;
+        background-color: seagreen;
+        background-image: url(images/bg.jpg);
+        background-repeat: repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    h3 {
+        font-size: 25px;
+        color: black;
+        text-align: center;
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    }
+    
+    input {
+        width: 40%;
+        padding: 12px 0;
+        text-align: center;
+        border-radius: 20px;
+        font-size: 1.1rem;
+        background-color: #dff9fb;
+    }
+    
+    button {
+        font-size: 1rem;
+        cursor: pointer;
+        margin-top: 10px;
+        color: #eb4d4b;
+        background-color: #91aeec;
+    }
+    
+    button.btn {
+        font-weight: 600;
+        background: white;
+        padding: 5px;
+        text-transform: uppercase;
+        border-radius: 15px;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: cubic-bezier(0.65, -0.25, 0.25, 1.95);
+    }
+    
+    button.btn:hover,
+    button.btn:focus,
+    button.btn:active {
+        letter-spacing: 0.123rem;
+        word-spacing: 0.25;
+    }
+    
+    .hidden {
+        display: none;
+    }
+    
+    p {
+        padding: 5px;
+        margin: 5px;
+        font-size: large;
+        font-weight: 600;
+        font-family: 'PT Serif', serif;
+        color: black;
+        margin-top: -40px;
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    }
+    
+    #stop {
+        font-size: 1rem;
+        cursor: pointer;
+        margin-top: 10px;
+        color: #eb4d4b;
+        background-color: white;
+        font-weight: 600;
+        padding: 5px;
+        text-transform: uppercase;
+        border-radius: 15px;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: cubic-bezier(0.65, -0.25, 0.25, 1.95);
+    }
+    
+    #stop:hover,
+    #stop:focus,
+    #stop:active {
+        letter-spacing: 0.123rem;
+        word-spacing: 0.25;
+    }
